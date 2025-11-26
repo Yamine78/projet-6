@@ -125,12 +125,23 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+	
 }
+
 #banner .arrow_left {
-	left: 10px;
+	left: 10px;	
+	position: absolute;
+	top: 40%;       /* hauteur par rapport à #banner */
+	width: 40px;    /* taille de la flèche */
+	cursor: pointer;
 }
+
 #banner .arrow_right {
 	right: 10px;
+	position: absolute;
+	top: 40%;     /* hauteur par rapport à #banner */
+	width: 40px;   /* taille de la flèche */	
+	cursor: pointer;
 }
 /* Gestion des points du carrousel */
 .dots {
